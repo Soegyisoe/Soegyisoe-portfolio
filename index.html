@@ -13,9 +13,9 @@
 
     <!-- Navigation -->
     <header class="navbar">
-        <div class="logo">Soe Gyi Soe</div>
+        <a class="logo" href="#home">Soe Gyi Soe</a>
 
-        <nav>
+        <nav aria-label="Primary navigation">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -24,37 +24,50 @@
         </nav>
     </header>
 
-
     <main>
 
         <!-- Home -->
         <section id="home" class="hero">
-
-            <div>
-
+            <div class="hero-content">
                 <p class="intro">Hello, I am</p>
 
                 <h1>Soe Gyi Soe</h1>
 
                 <h2>Future Software Developer</h2>
 
-                <p>
-                    I am learning Python and Web Development.
-                    This is my personal portfolio website.
+                <p class="hero-description">
+                    I am learning Python and web development while building
+                    simple, useful, and reliable digital experiences.
                 </p>
 
-                <a class="button" href="#projects">
-                    View My Projects
-                </a>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        View My Projects
+                    </a>
 
+                    <a
+                        class="button button-secondary"
+                        href="https://github.com/Soegyisoe"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub Profile
+                    </a>
+                </div>
             </div>
 
+            <div class="hero-visual">
+                <div class="profile-frame">
+                    <img
+                        src="profile-avatar.svg"
+                        alt="Profile illustration for Soe Gyi Soe"
+                        class="profile-photo">
+                </div>
+                <p class="profile-caption">Learning, building, and growing.</p>
+            </div>
         </section>
-
 
         <!-- About -->
         <section id="about" class="section">
-
             <h2>About Me</h2>
 
             <p>
@@ -62,17 +75,13 @@
                 Python, HTML, CSS, JavaScript, and GitHub.
                 My goal is to build useful and reliable software.
             </p>
-
         </section>
-
 
         <!-- Skills -->
         <section id="skills" class="section light-section">
-
             <h2>My Skills</h2>
 
             <div class="skills">
-
                 <span>Python</span>
                 <span>HTML</span>
                 <span>CSS</span>
@@ -81,23 +90,16 @@
                 <span>GitHub Actions</span>
                 <span>Pylint</span>
                 <span>Problem Solving</span>
-
             </div>
-
         </section>
-
 
         <!-- Projects -->
         <section id="projects" class="section">
-
             <h2>My Projects</h2>
 
             <div class="project-container">
-
-
                 <!-- Python Learning Repository -->
                 <article class="project-card">
-
                     <h3>Python Learning Projects</h3>
 
                     <p>
@@ -110,17 +112,12 @@
                         href="https://github.com/Soegyisoe/python-learning"
                         target="_blank"
                         rel="noopener noreferrer">
-
                         View GitHub Repository
-
                     </a>
-
                 </article>
-
 
                 <!-- GitHub Actions -->
                 <article class="project-card">
-
                     <h3>Python CI / Pylint</h3>
 
                     <p>
@@ -132,17 +129,12 @@
                         href="https://github.com/Soegyisoe/python-learning/tree/01d1034bca95f779905733c055c1231dfd989548/.github/workflows"
                         target="_blank"
                         rel="noopener noreferrer">
-
                         View GitHub Actions
-
                     </a>
-
                 </article>
-
 
                 <!-- Portfolio Website -->
                 <article class="project-card">
-
                     <h3>My First Portfolio Website</h3>
 
                     <p>
@@ -150,23 +142,13 @@
                         created using HTML and CSS.
                     </p>
 
-                    <a href="#home">
-
-                        View Project
-
-                    </a>
-
+                    <a href="#home">View Project</a>
                 </article>
-
-
             </div>
-
         </section>
-
 
         <!-- Contact -->
         <section id="contact" class="section light-section">
-
             <h2>Contact Me</h2>
 
             <p>
@@ -178,32 +160,20 @@
 
             <p>
                 GitHub:
-
                 <a
                     href="https://github.com/Soegyisoe"
                     target="_blank"
                     rel="noopener noreferrer">
-
                     github.com/Soegyisoe
-
                 </a>
-
             </p>
-
         </section>
-
     </main>
-
 
     <!-- Footer -->
     <footer>
-
-        <p>
-            © 2026 Soe Gyi Soe. All rights reserved.
-        </p>
-
+        <p>© 2026 Soe Gyi Soe. All rights reserved.</p>
     </footer>
-
 
 </body>
 </html>
